@@ -1,0 +1,34 @@
+User-agent: *
+Allow: / #44#
+Disallow: /netcat/
+Disallow: /zakaz/
+Disallow: /korzina/
+Disallow: /netcat_templates/
+Disallow: /netcat_files/
+Disallow: *?
+Disallow: /netcat_template/
+Disallow: */filter.html
+
+
+# Disallow: /netcat_files/31/
+# Disallow: /netcat_files/35/23/
+Sitemap: https://alcaplast.shop/sitemap.xml
+
+Host: https://alcaplast.shop
+
+# Auto-generated section. Do not change. Не изменяйте содержимое этого раздела.
+Disallow: /proizvoditeli/ #39#
+Disallow: /obratnaya-svyaz/ #41#
+Disallow: /zayavka-na-zvonok/ #42#
+Disallow: /korzina/ #30#
+Disallow: /zakaz/ #31#
+Disallow: /poisk_old/ #49#
+Disallow: /misc/ #35#
+Disallow: /rekvizity-kompanii/ #38#
+Disallow: /404/ #2#
+Disallow: /poleznye-materialy/ #44#
+Disallow: /skidki-i-aktsii/ #53#
+Disallow: /polzovatelskoe-soglashenie/ #182#
+Disallow: /dogovor-oferty/ #180#
+Disallow: /politika-konfidentsialnosti/ #181#
+# End of auto-generated section.

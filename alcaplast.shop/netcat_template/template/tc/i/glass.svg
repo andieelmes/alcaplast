@@ -1,0 +1,12 @@
+<svg id="glass" xmlns="http://www.w3.org/2000/svg" width="36" height="42" viewBox="0 0 36 42">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #dedede;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Shape_10_copy_3" data-name="Shape 10 copy 3" class="cls-1" d="M572.541,1501.63l2.313-1.64,27.161,40.38-2.313,1.64Z" transform="translate(-566 -1500)"/>
+  <path id="Shape_10_copy_3-2" data-name="Shape 10 copy 3" class="cls-1" d="M565.985,1501.63l2.313-1.64,27.16,40.38-2.312,1.64Z" transform="translate(-566 -1500)"/>
+</svg>
