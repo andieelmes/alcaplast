@@ -167,7 +167,6 @@ function openMessagingPopup() {
 
   
   if (!$('#messagingPopup').length) return false;
-  console.log($button);
   var ESCAPE_KEYCODE = 27
 
   $button.on('click', function(){
