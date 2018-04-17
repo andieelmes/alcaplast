@@ -70,8 +70,29 @@ function validateNumber(number){
 	var number = +number.val().replace(/\D/g,'');
 	//console.log(number.toString().length)
 	return number.toString().length === 11
+}
+
+function validateEmail(email){
+	var email = email.val()
+	return email.indexOf('@') !== -1 && email.indexOf('.') !== -1 && email.lastIndexOf('.') > email.indexOf('@')
 
 }
+
+function showError(message, input, classOuter='partner__form-outer', classInner='partner__form-error js-partner-form-error'){
+	var $input = $(input)
+	if (!$input.siblings('.' + classOuter).length) {
+			var error = '<div class='+ classOuter +'><div class='+ classInner +'>'+ message +'</div></div>'
+			$input.after(error)
+	}
+}
+function showText(message, status, btn){
+	var $btn = $(btn)
+	$btn.siblings('.partner__form-text').remove();
+
+	var text = '<div class="partner__form-text partner__form-text--'+ status+'">'+ message+'</div>'
+	$btn.after(text)
+}
+
 function validateCallbackForm(){
 
 	var btn = $('.js-callback-button')
