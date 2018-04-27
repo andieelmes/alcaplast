@@ -99,7 +99,7 @@ function validateCallbackForm(){
 	if (!btn.length) return false;
 
 	var input = $('.js-callback-input')
-	$(input).mask('+7 999 999 99 99', {selectOnFocus: false, optional: true});
+	// $(input).mask('+7 999 999 99 99', {selectOnFocus: false, optional: true});
 
 	input.on( "invalid",
 		function(e) {

@@ -194,7 +194,6 @@
 
 .callback {
   position: absolute;
-  font-family: 'Lato';
   left: 0;
   right: 50px;
   top: 0;
@@ -388,7 +387,7 @@
   bottom: 20px;
   transition: all 0.3s;
   text-align: center;
-  font-family: 'Lato';
+  
 }
 .callback-button.inactive {
   display: none;
